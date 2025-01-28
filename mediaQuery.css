@@ -1,4 +1,8 @@
 @media screen and (max-width: 991px){
+    h3 {
+        font-size: 1.2rem;
+    }
+    
     .nav-toggle {
         display: block;
         margin-right: 20px;
@@ -20,4 +24,12 @@
     .cta-sectioin {
         padding: 80px;
     }
+}
+
+@media screen and (max-width: 767px){
+    
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
 }
